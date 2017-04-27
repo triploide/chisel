@@ -40,7 +40,7 @@
  * GLOBAL: Sound Config (define sound path, enable or disable all sounds)
  */
 	$.sound_path = "sound/";
-	$.sound_on = true; 
+	$.sound_on = false; 
 /*
  * SAVE INSTANCE REFERENCE (DO NOT CHANGE)
  * Save a reference to the global object (window in the browser)
@@ -103,7 +103,7 @@
  * Enable this to activate fastclick plugin
  * dependency: js/plugin/fastclick/fastclick.js 
  */
-	fastClick = false,
+	fastClick = true,
 /*
  * SMARTCHAT PLUGIN ARRAYS & CONFIG
  * Dependency: js/plugin/moment/moment.min.js 
@@ -131,7 +131,7 @@
  * VOICE COMMAND CONFIG
  * dependency: js/speech/voicecommand.js
  */
-	voice_command = true,
+	voice_command = false,
 /*
  * Turns on speech as soon as the page is loaded
  */	
